@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keaton's Travel Journal</title>
+</head>
+<style>
+     body {
+      background-color: rgb(21, 98, 187);
+      margin: 0;
+      padding: 0;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    header {
+      background-color: darkolivegreen;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    header a {
+      font-size: 20px;
+      color: black;
+      margin: 0 15px;
+      transition: color 0.3s ease;
+    }
+
+    header a:hover {
+      color: cornflowerblue;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 36px;
+      color: cadetblue;
+    }
+
+    a {
+      text-align: center;
+      font-size: 36px;
+      color: cadetblue;
+      text-decoration: none;
+    }
+
+    /* layout for cities section */
+    .cities {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 40px;
+    }
+
+    .city {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .city img {
+      width: 250px;
+      height: auto;
+      border-radius: 10px;
+      margin-top: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+    </style>
+<body>
+  <header>
+    <h1>My Travel Journal</h1>
+  </header>
+
+  <div class="cities">
+    <div class="city">
+      <a href="los.html">Los Angeles</a>
+      <img src="Dowtown.webp" alt="Downtown Los Angeles">
+    </div>
+
+    <div class="city">
+      <a href="las.html">Las Vegas</a>
+      <img src="istockphoto-621843450-612x612.jpg" alt="Las Vegas">
+    </div>
+
+    <div class="city">
+      <a href="sea.html">Seattle</a>
+      <img src="seattle-wa_416x416.webp" alt="Seattle">
+    </div>
+  </div>
+</body>
+</html>
